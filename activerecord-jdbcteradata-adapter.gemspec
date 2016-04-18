@@ -1,9 +1,9 @@
 Gem::Specification.new do |s|
   s.name        = 'activerecord-jdbcteradata-adapter'
-  s.version     = '0.5.2'
-  s.authors     = ['Chris Parker']
+  s.version     = '4.2.6'
+  s.authors     = ['Chris Parker','Mike Robideau']
   s.email       = %w(mrcsparker@gmail.com)
-  s.homepage    = 'https://github.com/mrcsparker/activerecord-jdbcteradata-adapter'
+  s.homepage    = 'https://github.com/mrobideau/activerecord-jdbcteradata-adapter'
   s.summary     = %q{Teradata JDBC driver for JRuby on Rails.}
   s.description = %q{Install this gem and require 'teradata' with JRuby on Rails.}
   s.license = 'MIT'
@@ -36,6 +36,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rake'
   s.add_development_dependency 'rspec'
   s.add_dependency 'activerecord-jdbc-adapter', '<=1.2.9.1'
-  s.add_dependency 'activerecord', '<= 3.2.13'
+  s.add_dependency 'activerecord', '<= 4.2.6'
   s.add_dependency 'jdbc-teradata'
 end
